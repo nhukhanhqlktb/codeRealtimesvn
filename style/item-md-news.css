@@ -1,0 +1,19 @@
+.item-md-news {
+	width: 250px;
+	padding-bottom: 1rem;
+}
+
+.item-md-news img {
+	width: 100%;
+	margin-bottom: 6px;
+}
+
+.item-md-news a {
+	color: #082E49;
+	transition: all 0.3s;
+}
+
+.item-md-news a:hover {
+	color: #A3193A;
+}
+

@@ -1,0 +1,27 @@
+.item-lg-news {
+	width: 500px;
+	padding-bottom: 1rem; 
+}
+
+.item-lg-news a {
+	color: #215274;
+	transition: all 0.3s;
+}
+
+.item-lg-news h2 {
+	margin-bottom: 0.6rem;
+}
+
+.item-lg-news img {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.item-lg-news p {
+	font-size: 14px;
+	color: #333;
+}
+
+.item-lg-news a:hover {
+	color: #A3193A;
+}
