@@ -1,0 +1,25 @@
+.item-sm-news {
+	border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+	display: flex;
+	padding: 1.6rem 0;
+}
+
+.item-sm-news img {
+	border-radius: 3px;
+	width: 80px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.item-sm-news_content {
+	padding-left: 1rem;
+}
+
+.item-sm-news_content a {
+	display: inline-block;
+	margin-bottom: 0.6rem;
+	color: #215274;
+}
+
+.item-sm-news_content a:hover{
+	color: #A3193A;
+}
