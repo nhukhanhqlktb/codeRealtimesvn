@@ -1,0 +1,21 @@
+.pagination {
+	padding-bottom: 2.5rem;
+}
+
+.pagination .p-link{
+	display: inline-block;
+	padding: 6px 10px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #215274;
+	border-bottom: 3px solid #999;
+	transition: all 0.4s;
+}
+
+.pagination .page-active {
+	border-bottom: 3px solid #215274;	
+}
+
+.pagination .p-link:hover {
+	border-bottom: 3px solid #215274;
+}

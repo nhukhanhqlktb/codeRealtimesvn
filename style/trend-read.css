@@ -1,0 +1,20 @@
+.item-trend-read {
+	padding: 1.2rem 10px 0.7rem 10px;
+}
+
+.item-trend-read a {
+	display: inline-block;
+	margin-bottom: 0.8rem;
+	color: #215274;
+	transition: all 0.3s;
+}
+
+.item-trend-read a:hover {
+	color: #A3193A;
+}
+
+.item-trend-read p {
+	display: flex;
+	font-size: 12px;
+	color: #888;
+}
