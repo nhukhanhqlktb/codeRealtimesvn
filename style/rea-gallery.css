@@ -1,0 +1,109 @@
+/*rea-item*/
+.rea-gallery-list .rea-item {
+	display: flex;
+	padding: 1rem 0;
+	font-size: 14px;
+	font-weight: 600;
+	color: #BEC4C8;
+}
+
+.rea-gallery-list .rea-item img{
+	width: 40%;
+	border-radius: 3px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rea-gallery-list .rea-item p {
+	margin-left: 0.8rem;
+}
+
+/*rea-row*/
+
+.rea-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.rea-gallery-list {
+	padding: 0 1rem 0 1.5rem;
+	width: 290px;
+}
+
+.rea-gallery-list .active {
+	color: #fd7e14;
+}
+
+.rea-gallery {
+	background-color: #091921;
+	padding-bottom: 2rem;
+	margin-bottom: 1rem;
+}
+
+.rea-gallery .rea-video {
+	flex-grow: 1;
+	height: 511px;
+	position: relative;
+}
+
+.rea-gallery .video {
+	width: 100%;
+	height: 100%;
+}
+
+
+.rea-video iframe {
+	display: none;
+}
+
+.rea-video img {
+	width: 100%;
+	height: 100%;
+}
+
+.rea-video i {
+	font-size: 3rem;
+	text-align: center;
+	line-height: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #BB1C06;
+	transform: translate(-50%, -50%);
+}
+
+/*title*/
+.rea-gallery .title {
+	border-bottom: 2px solid #051F31;
+	padding: 1rem 0 0.5rem 0;
+	margin-bottom: 1rem;
+}
+
+.rea-gallery .title .icon {
+	font-size: 1.5rem;
+	color: #000;
+	width: 45px;
+	height: 30px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.rea-gallery .title a:first-child {
+	color: #12517C;
+	text-transform: uppercase;
+}
+
+.rea-gallery .title a:first-child i {
+	background-color: #12517C;
+}
+
+.rea-gallery .np-gallery .icon {
+	background-color: #12517C;
+	margin-left: 10px;
+}
+
+.rea-gallery .np-gallery span {
+	color: #eee;
+	font-size: 14px;
+	font-weight: 600;
+}

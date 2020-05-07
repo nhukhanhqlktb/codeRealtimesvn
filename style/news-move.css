@@ -1,13 +1,13 @@
-.news-move {
+.news-move-text {
 	overflow: hidden;
 	font-size: 14px;
 }
 
-.news-move a {
+.news-move-text a {
 	color: #3F5F76;
 	padding-left: 4px;
 }
 
-.news-move i {
+.news-move-text i {
 	color: #fd7e14;
 }

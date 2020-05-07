@@ -1,0 +1,21 @@
+.top-brands-img {
+	display: flex;
+	background-color: #eee;
+	padding: 25px;
+	margin-bottom: 2rem;
+}
+
+.top-brands-img img{
+	display: inline-block;
+	margin-right: auto;
+	background-color: #fff;
+	width: 15.2%;
+	padding: 8px;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.top-brands h4 {
+	text-transform: uppercase;
+	padding-bottom: 1rem;
+	color: #333;
+}
