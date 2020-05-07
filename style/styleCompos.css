@@ -7,13 +7,12 @@
 
 body {
 	min-height: 100vh;
-	background-color: #091921;
+	background-color: rgba(0, 0, 0, 0.1);
 }
 
 .container {
-	padding: 2rem 0;
-	max-width: 700px;
-	margin: auto;
+	padding-top: 2rem;
+	margin: 0 75px;
 	background-color: #fff;
 }
 
@@ -21,6 +20,3 @@ a {
 	text-decoration: none;
 }
 
-.containertwo {
-	margin: 0 75px;
-}

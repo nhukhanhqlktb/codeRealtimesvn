@@ -1,0 +1,24 @@
+.socials-top {
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 5px 0;
+  text-align: right;
+}
+
+.socials-top a{
+  width: 25px;
+  height: 25px;
+  color: #313233;
+  background-color: #D8E0EA;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 3px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+  transition: all 0.3s;
+}
+
+.socials-top a:hover {
+  color: #A3193A;
+}

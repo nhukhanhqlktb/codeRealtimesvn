@@ -49,6 +49,7 @@
 	color: #fff;
 }
 
+/*footer-logo*/
 .footer-logo {
 	text-align: center;
 	background-color: #fff;
@@ -68,12 +69,20 @@
 
 .footer-logo a:last-child img{
 	height: 30px;
-	width: 160px;
+	width: 150px;
 }
 
+.footer-logo a:nth-of-type(3) img{
+	width: 120px;
+}
+
+.footer-logo a:last-child {
+	border-right: none;
+}
+
+/*footer-end*/
 .footer-end {
-	border-top: 1px solid rgba(0, 0, 0, 0.2);
-	padding: 5px 0;
+	padding: 8px 0;
 	display: flex;
 	justify-content: space-between;
 }
