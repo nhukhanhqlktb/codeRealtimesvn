@@ -1,6 +1,9 @@
 .news-move-text {
+	max-width: 700px;
 	overflow: hidden;
 	font-size: 14px;
+	display: flex;
+	/*flex-wrap: wrap;*/
 }
 
 .news-move-text a {
@@ -10,4 +13,13 @@
 
 .news-move-text i {
 	color: #fd7e14;
+}
+
+.news-move-text p {
+	padding: 3px 5px;
+	width: 150px;
+	text-transform: uppercase;
+	color: #082E49;
+	border-left: 3px solid #F59D1F;
+	font-size: 1.05rem;
 }
