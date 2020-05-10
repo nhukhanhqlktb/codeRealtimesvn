@@ -10,8 +10,11 @@ body {
 }
 
 .container {
-	width: 1160px;
+	max-width: 1200px;
 	margin: 0 auto;
+}
+
+.row {
 	display: flex;
 }
 
@@ -30,8 +33,9 @@ body {
 	padding-left: 10px;
 }
 
-.padding-common {
-	padding: 0 73px;
+.self-pad-mar {/*
+	padding: 0 200px;
+	margin: 0 -200px;*/
 }
 
 .top-news {
